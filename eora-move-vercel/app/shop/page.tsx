@@ -1,4 +1,0 @@
-import { ArrowUpRight, ShoppingBag, Sparkles } from 'lucide-react';
-import { PageHero, SiteShell } from '@/app/components/SiteShell';
-
-export default function ShopPage() { return <SiteShell><PageHero index="05 / Shop" eyebrow="Eora essentials" title={<>A little more Eora<br/><em>in your life.</em></>} text="Gutscheine und ausgewählte Studio Essentials – direkt und sicher über bsport."/><section className="shop standalone-shop"><div className="shop-heading"><p className="eyebrow">Curated for movement</p><h2>Give movement.<br/>Keep the feeling.</h2><p>Der Shop ist für die Verknüpfung mit deinem bsport-Shop vorbereitet.</p></div><div className="shop-cards"><a className="shop-card voucher" href="/login"><Sparkles/><span>Gift Card</span><strong>From 25 €</strong><ArrowUpRight/></a><a className="shop-card essentials" href="/login"><ShoppingBag/><span>Studio Essentials</span><strong>Grip socks & more</strong><ArrowUpRight/></a></div></section></SiteShell>; }
